@@ -1,0 +1,3 @@
+rootProject.name = 'shipmentService'
+include   ':eda-dto'
+project(':eda-dto').projectDir = new File(settingsDir, '../eda-dto')

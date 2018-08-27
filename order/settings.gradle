@@ -1,0 +1,8 @@
+rootProject.name = 'order'
+include   ':eda-dto'
+project(':eda-dto').projectDir = new File(settingsDir, '../eda-dto')
+
+//include   ':product'
+//project(':product').projectDir = new File(settingsDir, '../product')
+//include   ':avrodto'
+//project(':avrodto').projectDir = new File(settingsDir, '../avrodto')
